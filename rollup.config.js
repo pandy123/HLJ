@@ -10,17 +10,16 @@ import replace from 'rollup-plugin-replace';
 export default{
     input:'./src/index.ts',
     output:{
-        file:'./examle/build/HLJ.js',
+        file:'./example/build/HLJ.js',
         format:'iife',
         name:'HLJ',
-        footer:'this.HLJ = HLJ;'
+        footer:'this.HLJ = HLJ;',
+        sourcemap:true
     },
   plugins : [
         sourcemaps(),
-        nodeResolve({
-        }),
-        commonjs({
-        }),
+        nodeResolve(),
+        commonjs(),
         typescript(),
         string({
             include: [

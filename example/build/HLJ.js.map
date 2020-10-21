@@ -1,0 +1,1 @@
+{"version":3,"file":"HLJ.js","sources":["../../src/index.ts"],"sourcesContent":["export function main(){\r\n    console.log(\"dd\");\r\n}"],"names":[],"mappings":";;;aAAgB,IAAI;QAChB,OAAO,CAAC,GAAG,CAAC,IAAI,CAAC,CAAC;IACtB;;;;;;;;;;;;;;;"}
